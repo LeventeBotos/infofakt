@@ -26,6 +26,8 @@ for i in range(0, 100000):
             print(f"{i} egy prím")
             list2.append(f"{i}")
             index2 += 1
+    else:
+        break
 
 
 print(len(list1))
